@@ -46,3 +46,7 @@ app.post("/upload", upload.single("file"),async (req,res)=>{
 
 
 app.listen(3000)
+
+// npm i                                                   --to install depedencies
+// npm run dev                                             --to start the server
+// jupyter nbconvert --to script python.ipynb              --ipynb to py converter     
